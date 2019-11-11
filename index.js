@@ -25,3 +25,9 @@ function reverseString(myString) {
   }
   
 }
+
+function addUpTo(array, index)
+    
+  
+  let sum = addUpTo(array)
+}
