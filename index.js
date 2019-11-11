@@ -6,7 +6,7 @@ function printString(myString) {
   
   if (myString.length >1) {
     let mySubString = myString.substring(1, myString.length);
-    pringString(mySubString);
+    printString(mySubString);
   }
   else {
     return true;
