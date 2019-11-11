@@ -14,10 +14,10 @@ function printString(myString) {
 }
 
 function reverseString(myString) {
-  console.log(myString[-1]);
+  console.log(myString[myString.length-1]);
   
   if (myString.length >1) {
-    let mySubString = myString.substring(1, myString.length);
+    let mySubString = myString.substring((myString.length-1), 0);
     printString(mySubString);
   }
   else {
